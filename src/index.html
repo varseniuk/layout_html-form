@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
@@ -11,8 +12,9 @@
   </head>
   <body>
     <form
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST">
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+    >
       <fieldset>
         <legend>Personal information</legend>
         <div>
@@ -21,7 +23,8 @@
             type="text"
             id ="surname"
             name="surname"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div>
           <label for="name">Name:</label>
@@ -29,7 +32,8 @@
             type="text"
             id="name"
             name="name"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div>
           <label for="age">How old are You?</label>
@@ -40,14 +44,16 @@
             value ="12"
             min="1"
             max="999"
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
         <div>
           <label for="birthdate">Full date of birth:</label>
           <input
             type="date"
             id="birthdate"
-            name="birthdate">
+            name="birthdate"
+          >
         </div>
         <div>
           <label for="agreement">I accept the term of the agreement</label>
@@ -56,7 +62,8 @@
             id="agreement"
             name="agreement"
             class="last"
-            required>
+            required
+          >
         </div>
       </fieldset>
 
@@ -70,7 +77,8 @@
             name="mail"
             placeholder="email@example.com"
             autocomplete="off"
-            required>
+            required
+          >
         </div>
         <div>
           <label for="password">Password:</label>
@@ -81,7 +89,8 @@
             minlength="6"
             maxlength="12"
             autocomplete="off"
-            required>
+            required
+          >
         </div>
       </fieldset>
 
@@ -92,12 +101,14 @@
           <input
             type="radio"
             name="catlover"
-            id="yes">
+            id="yes"
+          >
           <label for="yes">Yes</label>
           <input
             type="radio"
             name="catlover"
-            id="no">
+            id="no"
+          >
           <label for="no">No</label>
         </div>
         <div>
@@ -105,21 +116,24 @@
           <input
             type="color"
             name="color"
-            id="color">
+            id="color"
+          >
         </div>
         <div>
           <label for="bedtime">What time do you go to bed?</label>
           <input
             type="time"
             name="bedtime"
-            id="bedtime">
+            id="bedtime"
+          >
         </div>
         <div>
           <label for="cars">What are your favourite brand of cars?</label>
           <select
             name="cars"
             id="cars"
-            multiple>
+            multiple
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -133,7 +147,8 @@
             id="rate"
             min="1"
             max="10"
-            value="1">
+            value="1"
+          >
         </div>
       </fieldset>
 
@@ -143,14 +158,16 @@
           <label for="comments">Comments:</label>
           <textarea
             name="comments"
-            id="comments">
+            id="comments"
+          >
           </textarea>
         </div>
         <div>
           <label for="recommendation">Would you recommend us?</label>
           <select
             id="recommendation"
-            name="recommendation">
+            name="recommendation"
+          >
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
